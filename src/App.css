@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body {
+  background: linear-gradient(to right,rgb(251, 255, 0), rgb(0, 200, 255));
+  background-repeat: no-repeat;
+  height: 150vh;
+  display: flex;
+  justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.forms-body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: linear-gradient(rgba(255, 255, 255, 0.694),rgba(255, 255, 255, 0.741));
+  width: 600px;
+  border-radius: 30px;
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.input {
+  display: flex;
+  margin: 20px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border: solid thin gray;
+  padding: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  margin: 20px;
+  color: #fff;
+  margin-top: 0;
+  background: rgb(0, 173, 221);
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100px;
+  cursor: pointer;
+  width: 300px;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+.button:hover {
+  background: rgb(51, 201, 255);
+  letter-spacing: 0.25rem;
+}
+
+h3 {
+  text-align: center;
+  font-size: 30px;
 }
